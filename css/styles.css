@@ -272,7 +272,24 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+/* КЛИЕНТЫ */
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-item {
+  width: calc((100% - 150px) / 6);
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+.clients-list .client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.client-icon {
+}
 /*Подвал */
 .footer {
   background-color: var(--black-bgc-color);
